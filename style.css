@@ -368,6 +368,8 @@ body {
     border: 1px solid #088178;
 }
 
+/*Styling for banner3 section*/
+
 #banner3 {
     display: flex;
     justify-content: space-between;
@@ -413,6 +415,7 @@ body {
     font-size: 25px;
 }
 
+/*Styling newsletter section*/
 #newsletter {
     display: flex;
     justify-content: space-between;
