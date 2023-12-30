@@ -716,3 +716,49 @@ footer .copyright {
         font-size: 40px;
     }
 }
+
+/********************SHOP PAGE************************/
+
+#page-header {
+    background-image: url(img/banner/b1.jpg);
+    height: 40vh;
+    width: 100%;
+    background-size: cover;
+    background-position: right 0px top 25%;
+    padding: 14px  ;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+#page-header h2,
+#page-header p {
+    color: #fff
+}
+
+#page-header h2 {
+    font-size: 90px;
+}
+
+#page-header p {
+    font-size: 30px;
+}
+
+#pagination {
+    text-align: center;
+}
+
+#pagination a {
+    text-decoration: none;
+    background-color: #088178;
+    padding: 15px 20px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: 600;
+}
+
+#pagination a i {
+    font-size: 16px;
+    font-weight: 600;
+}
