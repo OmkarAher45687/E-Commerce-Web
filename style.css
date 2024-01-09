@@ -672,6 +672,7 @@ footer .copyright {
     align-items: center;
     width: 100%;
     position: relative;
+    padding-bottom: 90px;
 }
 
 #blog .blog-img {
@@ -922,6 +923,14 @@ footer .copyright {
         font-size: 40px;
     }
 
+    #page-header h2 {
+        font-size: 55px;
+    }
+
+    #page-header p {
+        font-size: 24px;
+    }
+
    /* Single Product*/
    #prodetails {
     display: flex;
@@ -938,4 +947,24 @@ footer .copyright {
     }
 
 
+    /*Blog Page*/
+    #blog .blog-box {
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #blog {
+        padding: 100px 20px 0 20px;
+    }
+
+    #blog .blog-img {
+        width: 100%;
+        margin-right: 0px;
+        margin-bottom: 30px;
+    }
+
+    #blog .blog-details {
+        width: 100%;
+    }
 }
